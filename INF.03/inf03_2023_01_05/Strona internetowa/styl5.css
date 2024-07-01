@@ -1,0 +1,64 @@
+* {
+    font-family: 'Tahoma';
+}
+
+body{
+    margin: 0;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+} 
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    background-color: #7DA453;
+    color: white;
+    height: 120px;
+}
+
+.first_block,
+.second_block {
+    width: 40%;
+}
+
+.third_block {
+    width: 20%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dzien{
+    background-color: #AED581;
+    width: 200px;
+    height: 100px;
+    margin: 7px;
+    border: 1px solid #7DA453;
+}
+
+.dzien:hover {
+    background-color: #7DA453;
+    color: white;
+}
+
+footer{
+    background-color: #7DA453;
+    color: white;
+    padding: 5px;
+}
+
+h5{
+    text-align: center;
+}
+
+form{
+    padding-top: 50px;
+}
