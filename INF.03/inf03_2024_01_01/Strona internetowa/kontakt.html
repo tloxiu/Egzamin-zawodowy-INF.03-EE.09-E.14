@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Firma IT</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+    <main class="kontener">
+        <header>
+            <section class="logo">
+                <img src="logo.png" alt="firma it">
+            </section>
+            <nav class="menu">
+                <a href="index.html">Strona Główna</a>
+                <a href="uslugi.html">Usługi</a>
+                <a href="kontakt.html">Kontakt</a>
+            </nav>
+            <section class="baner">
+                <img src="animacja.gif" alt="uslugi informatyczne">
+            </section>
+        </header>
+        <section class="blok-glowny">
+            <h2>Kontakt</h2>
+            <table>
+                <tr>
+                    <th>Imię:</th>
+                    <th><input type="text" id="username"></th>
+                </tr>
+                <tr>
+                    <th>Nazwisko:</th>
+                    <th><input type="text" id="surname"></th>
+                </tr>
+                <tr>
+                    <th>E-mail:</th>
+                    <th><input type="text" id="email"></th>
+                </tr>
+                <tr>
+                    <th>Zgłoszenie</th>
+                    <textarea name="" id="textarea" cols="40" rows="10"></textarea>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th><input type="checkbox" id="checkbox">Zapoznałem się z regulaminem</th>
+                    
+                </tr>
+                <tr>
+                    <th></th>
+                    <th><button type="reset">Resetuj</button><button type="button" class="button">Prześlij</button></th>
+                </tr>
+            </table>
+            <hr>
+            <p class="result"></p>
+        </section>
+        <footer class="stopka">
+            <p>Autor strony: lol</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
