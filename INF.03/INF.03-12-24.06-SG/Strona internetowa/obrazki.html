@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efekty obrazu</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header class="baner">
+        <h2>Efekty na obrazach</h2>
+    </header>
+
+    <main>
+        <section class="blok1">
+            <img class="obraz1" src="pszczola.jpg" alt="pszczoła na fioletowym kwiatku"> <br>
+            <input type="radio" id="blur" name="efekt">
+            <label for="blur">Blur</label><br>
+            <input type="radio" id="sepia" name="efekt">
+            <label for="sepia">Sepia</label> <br>
+            <input type="radio" id="negatyw" name="efekt">
+            <label for="negatyw">Negatyw</label> <br>
+            <button class="przycisk-filtr">Zastosuj</button>
+        </section>
+    
+        <section class="blok2">
+            <img class="obraz2" src="pomarancza.jpg" alt="drzewo pomaranczy"> <br>
+            <button class="przycisk-kolorowy">Kolorowy</button> <button class="przycisk-czarno-bialy">Czarno-biały</button>
+        </section>
+    
+        <section class="blok3">
+            <img class="obraz3" src="owoce.jpg" alt="kosz pełen owoców"> <br>
+            <input type="range" class="suwak-owoce" min="0" max="100" value="100" /> <br>
+            <button class="przycisk-owoce">Zastosuj</button>
+        </section>
+    
+        <section class="blok4">
+            <img class="obraz4" src="zolw.jpg" alt="żółw w wodzie"> <br>
+            <input type="range" class="suwak-zolw" min="0" max="250"> <br>
+            <button class="przycisk-zolw">Zastosuj</button>
+        </section>
+    </main>
+
+    <footer class="stopka">
+        <p><a target="_blank" href="http://www.css.com/">Zobacz inne efekty obrazu</a></p>
+        <p>Stronę wykonał: lol</p>
+    </footer>
+
+    <script src="skrypt.js"></script>
+</body>
+</html>

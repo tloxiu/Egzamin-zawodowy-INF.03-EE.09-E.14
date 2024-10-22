@@ -1,0 +1,50 @@
+*{
+    font-family: Century Serif;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.baner, .stopka{
+    background-color: indigo;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+}
+
+section{
+    width: 50%;
+    height: 470px;
+}
+
+img{
+    padding: 3px;
+    margin: 10px;
+    border: 2px dashed slateblue;
+}
+
+a{
+    color: white;
+}
+
+button{
+    background-color: slateblue;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: indigo;
+}
+
+.suwak-owoce, .suwak-zolw{
+    width: 80%;
+}
