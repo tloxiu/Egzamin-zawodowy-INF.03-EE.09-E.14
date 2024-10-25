@@ -1,0 +1,60 @@
+*{
+    font-family: "Bookman Old Style", "Serif";
+}
+
+.blok-banera, .blok-banera{
+    background-color: darkcyan;
+    color: white;
+    width: 50%;
+    height: 100px;
+    letter-spacing: 15px;
+    float: left;
+}
+
+.stopka{
+    background-color: darkcyan;
+    color: white;
+}
+
+.karta-pracownicza{
+    background-color: azure;
+    width: 30%;
+    margin: 1%;
+    box-shadow: 4px 4px 8px dimgray;
+    float: left;
+}
+
+.karta-pracownicza img{
+    width: 100%;
+}
+
+p, h2, h3{
+    margin: 15px;
+}
+
+a{
+    color: white;
+}
+
+h5{
+    background-color: teal;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+h5:hover{
+    background-color: lightseagreen;
+}
+
+.blok-cytatu{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    font-style: oblique;
+}
