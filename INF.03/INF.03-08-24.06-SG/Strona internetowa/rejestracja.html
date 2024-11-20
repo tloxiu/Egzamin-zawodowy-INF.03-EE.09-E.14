@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep - rejestracja</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <section class="blok-boczny">
+        <img src="obraz.png" alt="promocje">
+        <h2>Sprawdź promocje</h2>
+        <table>
+            <tr>
+                <th>co?</th>
+                <th>ile taniej?</th>
+            </tr>
+            <tr>
+                <td>ubrania</td>
+                <td>15%</td>
+            </tr>
+            <tr>
+                <td>buty</td>
+                <td>25%</td>
+            </tr>
+        </table>
+    </section>
+    <header class="baner">
+        <h1>Zarejestruj się w sklepie</h1>
+    </header>
+    <main class="blok-glowny">
+        <button class="przycisk-klient">Klient</button>
+        <button class="przycisk-adres">Adres</button>
+        <button class="przycisk-kontakt">Kontakt</button>
+
+        <section class="pierwszy-kontrolki">
+            <p>Imię</p>
+            <input type="text" id="imie" placeholder="Wpisz dane..." onblur="utrataFocusa()">
+            <p>Nazwisko</p>
+            <input type="text" id="nazwisko" onblur="utrataFocusa()">
+            <p>Data urodzenia</p>
+            <input type="date" id="data-urodzenia" onblur="utrataFocusa()">
+        </section>
+        <section class="drugi-kontrolki">
+            <p>Ulica</p>
+            <input type="text" id="ulica" onblur="utrataFocusa()">
+            <p>Numer</p>
+            <input type="number" id="numer" onblur="utrataFocusa()">
+            <p>Miasto</p>
+            <input type="text" id="miasto" onblur="utrataFocusa()">
+        </section>
+        <section class="trzeci-kontrolki">
+            <p>Numer komórkowy</p>
+            <input type="tel" id="numer-telefonu" onblur="utrataFocusa()">
+
+            <p><input type="checkbox" id="checkbox" onblur="utrataFocusa()"> Akceptuję RODO</p>
+
+            <button class="przycisk-zatwierdz" onclick="wyswietlDane()">Zatwierdź dane</button>
+        </section>
+    </main>
+    <section class="blok-paska-postepu">
+        <section class="pusty-blok"></section>
+    </section>
+    <footer class="stopka">
+        <h4>Rejestrację do sklepu wykonał: lol</h4>
+    </footer>
+
+    <script src="skrypt.js"></script>
+</body> 
+</html>
