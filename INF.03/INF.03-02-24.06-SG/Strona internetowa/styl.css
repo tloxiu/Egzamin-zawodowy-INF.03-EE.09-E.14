@@ -1,0 +1,82 @@
+*{
+    font-family: 'Garamond';
+}
+
+.baner{
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    width: 80%;
+    height: 80px;
+    float: left;
+}
+
+.blok-glowny{
+    width: 80%;
+    height: 600px;
+    float: left;
+}
+
+.blok-boczny{
+    background-color: coral;
+    width: 20%;
+    height: 680px;
+    float: right;
+}
+
+.stopka{
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    clear: both;
+}
+
+img{
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blok-chatu{
+    border: 1px solid tomato;
+    margin: 15px;
+    height: 470px;
+    overflow: scroll;
+}
+
+.blok-wypowiedzi{
+    border-radius: 5px;
+    width: 90%;
+    height: 70px;
+    margin: 2%;
+    padding: 3px;
+}
+
+.wypowiedz-jolanty{
+    background-color: #EEE;
+    float: left;
+}
+
+.wypowiedz-jolanty img, .wypowiedz-jolanty p{
+    float: left;
+}
+
+.wypowiedz-krzysztofa{
+    background-color: #CCC;
+    float: right;
+}
+
+.wypowiedz-krzysztofa img, .wypowiedz-krzysztofa p{
+    float: right;
+}
+
+button{
+    background-color: tomato;
+    border: 1px solid darkred;
+    padding: 5px;
+    font-weight: bold;
+}
+
+input{
+    width: 500px;
+}
