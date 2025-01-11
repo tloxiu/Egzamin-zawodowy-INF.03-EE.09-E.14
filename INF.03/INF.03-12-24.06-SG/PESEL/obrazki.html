@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efekty obrazu</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header class="blok-baneru">
+        <h2>Efekty na obrazach</h2>
+    </header>
+    <main class="blok-glowny">
+        <section class="pierwszy-blok">
+            <img class="pszczola" src="pszczola.jpg" alt="pszczoła na fioletowym kwiatku”"> <br>
+            <input type="radio" id="blur" name="efekt" value="blur">
+            <label for="blur">Blur</label> <br>
+            <input type="radio" id="sepia" name="efekt" value="sepia">
+            <label for="sepia">Sepia</label> <br>
+            <input type="radio" id="negatyw" name="efekt" value="negatyw">
+            <label for="negatyw">Negatyw</label> <br>
+            <button class="transformacja1">Zastosuj</button>
+        </section>
+        <section class="drugi-blok">
+            <img class="pomarancza" src="pomarancza.jpg" alt="drzewo pomarańczy"> <br>
+            <button class="transformacja2-kolorowy">Kolorowy</button>
+            <button class="transformacja2-czarnobialy">Czarno-biały</button>
+        </section>
+        <section class="trzeci-blok">
+            <img class="owoce" src="owoce.jpg" alt="Kosz pełen owoców"> <br>
+            <input id="przezroczystosc" type="range" min="0" max="100" value="100"> <br>
+            <button class="transformacja3">Zastosuj</button>
+        </section>
+        <section class="czwarty-blok">
+            <img class="zolw" src="zolw.jpg" alt="Żółw w wodzie"> <br>
+            <input id="jasnosc" type="range" min="0" max="250"> <br>
+            <button class="transformacja4">Zastosuj</button>
+        </section>
+    </main>
+    <footer class="blok-stopki">
+        <p><a href="http://www.css.com/" target="_blank">Zobacz inne efekty obrazu</a></p> <br>
+        <p>Stronę wykonał: lololol</p>
+    </footer>
+    <script src="skrypt.js"></script>
+</body>
+</html>
